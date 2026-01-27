@@ -34,16 +34,17 @@ const Header = () => {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
           ? 'bg-background/95 backdrop-blur-md shadow-lg'
-          : 'bg-transparent'
+          : 'bg-background/95'
       }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#inicio" className="flex items-center gap-2 group">
-            <ShoppingBag className="w-8 h-8 text-primary transition-transform group-hover:scale-110" />
+            <ShoppingBag className="w-8 h-8 text-tekfut transition-transform group-hover:scale-110" />
+            {/* <img src="../src/assets/LOGO-TEKFUT-PNG.png" alt="Logo TekFut"/> */}
             <span className="text-2xl font-display tracking-wider text-foreground">
-              Tek<span className="text-primary">Fut</span>
+              Tek<span className="text-tekfut">Fut</span>
             </span>
           </a>
 
@@ -53,7 +54,7 @@ const Header = () => {
               <button
                 key={link.href}
                 onClick={() => handleNavClick(link.href)}
-                className="nav-link"
+                className="nav-link-tekfut"
               >
                 {link.label}
               </button>
@@ -81,7 +82,7 @@ const Header = () => {
               <button
                 key={link.href}
                 onClick={() => handleNavClick(link.href)}
-                className="nav-link text-left text-lg py-2"
+                className="nav-link-tekfut text-left text-lg py-2"
               >
                 {link.label}
               </button>

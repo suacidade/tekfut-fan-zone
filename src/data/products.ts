@@ -34,7 +34,7 @@ export interface Product {
   subcategory?: string;
 }
 
-export const WHATSAPP_NUMBER = "5511999999999"; // Configure seu número aqui
+export const WHATSAPP_NUMBER = "5577991834403"; // Configure seu número aqui
 
 export const brazilianTeams: Product[] = [
   {

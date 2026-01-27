@@ -47,6 +47,8 @@
     --gradient-hero: linear-gradient(180deg, hsl(220 15% 8%) 0%, hsl(220 15% 5%) 100%);
     --shadow-glow: 0 0 30px hsl(160 100% 50% / 0.3);
     --shadow-card: 0 10px 40px hsl(0 0% 0% / 0.4);
+    --TEKFUT-PRIMARY: #7300C8;
+    --tekfut-color-white: #FFFFFF;
   }
 
   .dark {
@@ -96,7 +98,41 @@
     @apply text-4xl md:text-5xl lg:text-6xl text-foreground tracking-wide;
   }
 
+  .nav-link-tekfut {
+    color: var(--TEKFUT-PRIMARY);
+
+    @apply transition-colors duration-300
+           font-medium relative;
+
+    /* underline animado */
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 0.125rem;
+      background-color: var(--TEKFUT-PRIMARY);
+      transition: all 300ms;
+    }
+
+    &:hover {
+      filter: brightness(1.15);
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+  }
+
   .nav-link {
+    @apply text-muted-foreground hover:text-primary transition-colors duration-300
+           font-medium relative after:absolute after:bottom-0 after:left-0 
+           after:w-0 after:h-0.5 after:bg-primary after:transition-all 
+           hover:after:w-full;
+  }
+
+  .nav-link-tekfut-white {
     @apply text-muted-foreground hover:text-primary transition-colors duration-300
            font-medium relative after:absolute after:bottom-0 after:left-0 
            after:w-0 after:h-0.5 after:bg-primary after:transition-all 
@@ -144,5 +180,9 @@
   @keyframes pulse-glow {
     0%, 100% { box-shadow: 0 0 20px hsl(160 100% 50% / 0.3); }
     50% { box-shadow: 0 0 40px hsl(160 100% 50% / 0.5); }
+  }
+
+  .text-tekfut {
+    color: var(--TEKFUT-PRIMARY);
   }
 }
