@@ -12,7 +12,13 @@ const Hero = () => {
   return (
     <section
       id="inicio"
-      className="relative min-h-screen pt-[var(--header-height)] flex items-center justify-center overflow-hidden"
+      className="relative
+      flex
+      items-center
+      justify-center
+      overflow-x-hidden
+      min-h-[calc(100vh-var(--header-height))]
+      pt-[var(--header-height)]"
       style={{ background: 'var(--gradient-hero)' }}
     >
       {/* Background Pattern */}
@@ -71,7 +77,7 @@ const Hero = () => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-3 gap-8 mt-16 pt-16 border-t border-muted/20 animate-fade-in animation-delay-600">
+          <div className="grid grid-cols-3 gap-8 mt-2 pt-16 border-t border-muted/20 animate-fade-in animation-delay-600">
             <div>
               <p className="text-3xl md:text-4xl font-display gradient-text">500+</p>
               <p className="text-muted-foreground text-sm md:text-base">Produtos</p>
@@ -89,13 +95,13 @@ const Hero = () => {
       </div>
 
       {/* Scroll Indicator */}
-      <button
+      {/* <button
         onClick={scrollToProducts}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 text-muted-foreground hover:text-primary transition-colors animate-bounce"
+        className="absolute bottom-2 left-1/2 -translate-x-1/2 text-muted-foreground hover:text-primary transition-colors animate-bounce"
         aria-label="Scroll to products"
       >
         <ChevronDown size={32} />
-      </button>
+      </button> */}
     </section>
   );
 };

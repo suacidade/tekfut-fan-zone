@@ -7,11 +7,21 @@ import brasilReservaImg from '@/assets/products/brasil_reserva.jpeg';
 import vascoTorcedorImg from '@/assets/products/vasco_torcedor.jpeg';
 import palmeirasTorcedorImg from '@/assets/products/palmeiras_torcedor.jpeg';
 import palmeirasReservaImg from '@/assets/products/palmeiras_reserva.jpeg';
-import corinthiansImg from '@/assets/products/corinthians.jpg';
-import palmeirasImg from '@/assets/products/palmeiras.jpg';
-import saopauloImg from '@/assets/products/saopaulo.jpg';
-import santosImg from '@/assets/products/santos.jpg';
-import gremioImg from '@/assets/products/gremio.jpg';
+import fluminenseTorcedorImg from '@/assets/products/fluminense_torcedor.jpeg';
+import fluminenseReservaImg from '@/assets/products/fluminense_reserva.jpeg';
+import atleticoMineiroTitularImg from '@/assets/products/atletico_mineiro_titular.jpeg';
+import atleticoMineiroReservaImg from '@/assets/products/atletico_mineiro_reserva.jpeg';
+import flamengoTreinoImg from '@/assets/products/flamengo_treino.jpeg';
+import cruzeiroPoloImg from '@/assets/products/cruzeiro_polo.jpeg';
+import corinthians3Img from '@/assets/products/corinthians_3.jpg';
+import vascoReservaImg from '@/assets/products/vasco_reserva.jpeg';
+import flamengo3Img from '@/assets/products/flamengo_3.jpeg';
+import saoPaulo3Img from '@/assets/products/sao_paulo_3.jpeg';
+import corinthiansTitularImg from '@/assets/products/corinthians_titular.jpeg';
+import santosTitularImg from '@/assets/products/santos_titular.jpeg';
+import saoPauloTitularImg from '@/assets/products/sao_paulo_titular.jpeg';
+import corinthiansReservaImg from '@/assets/products/corinthians_reserva.jpeg';
+
 import realmadridImg from '@/assets/products/realmadrid.jpg';
 import barcelonaImg from '@/assets/products/barcelona.jpg';
 import manchesterImg from '@/assets/products/manchester.jpg';
@@ -90,7 +100,7 @@ export const brazilianTeams: Product[] = [
     category: "brasileiros"
   },
   {
-    id: "palmeiras-24",
+    id: "palmeiras-25",
     team: "Palmeiras | Reserva",
     season: "2026/2027",
     sizes: ["P", "M", "G", "GG", "XG"],
@@ -99,48 +109,129 @@ export const brazilianTeams: Product[] = [
     category: "brasileiros"
   },
   {
+    id: "fluminense-24",
+    team: "Fluminense | TORCEDOR",
+    season: "2026/2027",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: fluminenseTorcedorImg,
+    category: "brasileiros"
+  },
+  {
+    id: "fluminense-25",
+    team: "Fluminense | RESERVA",
+    season: "2026/2027",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: fluminenseReservaImg,
+    category: "brasileiros"
+  },
+  {
+    id: "atletico-mineiro-24",
+    team: "Atletico Mineiro | TITULAR",
+    season: "2026/2027",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: atleticoMineiroTitularImg,
+    category: "brasileiros"
+  },
+  {
+    id: "atletico-mineiro-25",
+    team: "Atletico Mineiro | RESERVA",
+    season: "2026/2027",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: atleticoMineiroReservaImg,
+    category: "brasileiros"
+  },
+  {
+    id: "flamengo-27",
+    team: "Flamengo | TREINO",
+    season: "2026/2027",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: flamengoTreinoImg,
+    category: "brasileiros"
+  },
+  {
+    id: "cruzeiro-24",
+    team: "Cruzeiro | POLO",
+    season: "2026/2027",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: cruzeiroPoloImg,
+    category: "brasileiros"
+  },
+  {
     id: "corinthians-24",
-    team: "Corinthians",
-    season: "2024/2025",
-    sizes: ["P", "M", "G", "GG"],
-    price: 149.90,
-    image: corinthiansImg,
+    team: "Corinthians | 3º Uniforme",
+    season: "2025/2026",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: corinthians3Img,
     category: "brasileiros"
   },
   {
-    id: "palmeiras-24",
-    team: "Palmeiras",
-    season: "2024/2025",
-    sizes: ["P", "M", "G"],
-    price: 159.90,
-    image: palmeirasImg,
+    id: "vasco-25",
+    team: "Vasco | RESERVA",
+    season: "2026/2027",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: vascoReservaImg,
     category: "brasileiros"
   },
   {
-    id: "saopaulo-24",
-    team: "São Paulo",
-    season: "2024/2025",
-    sizes: ["M", "G", "GG"],
-    price: 149.90,
-    image: saopauloImg,
+    id: "flamengo-28",
+    team: "Flamengo | 3º Uniforme",
+    season: "2025/2025",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: flamengo3Img,
+    category: "brasileiros"
+  },
+  {
+    id: "sao-paulo-24",
+    team: "São Paulo | 3º Uniforme",
+    season: "2025/2026",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: saoPaulo3Img,
+    category: "brasileiros"
+  },
+  {
+    id: "corinthians-25",
+    team: "Corinthians | Titular",
+    season: "2025/2026",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: corinthiansTitularImg,
     category: "brasileiros"
   },
   {
     id: "santos-24",
-    team: "Santos",
-    season: "2024/2025",
-    sizes: ["P", "M", "G", "GG"],
-    price: 139.90,
-    image: santosImg,
+    team: "Santos | Titular",
+    season: "2025/2026",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: santosTitularImg,
     category: "brasileiros"
   },
   {
-    id: "gremio-24",
-    team: "Grêmio",
-    season: "2024/2025",
-    sizes: ["P", "M", "G"],
-    price: 149.90,
-    image: gremioImg,
+    id: "sao-paulo-25",
+    team: "São Paulo | Titular",
+    season: "2025/2026",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: saoPauloTitularImg,
+    category: "brasileiros"
+  },
+  {
+    id: "corinthians-26",
+    team: "Corinthians | Reserva",
+    season: "2025/2026",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: corinthiansReservaImg,
     category: "brasileiros"
   }
 ];
@@ -251,61 +342,61 @@ export const nationalTeams: Product[] = [
     image: brasilReservaImg,
     category: "selecoes"
   },
-  {
-    id: "argentina-24",
-    team: "Argentina",
-    country: "Argentina",
-    model: "Titular",
-    season: "2024/2025",
-    sizes: ["P", "M", "G", "GG"],
-    price: 179.90,
-    image: argentinaImg,
-    category: "selecoes"
-  },
-  {
-    id: "franca-24",
-    team: "França",
-    country: "França",
-    model: "Titular",
-    season: "2024/2025",
-    sizes: ["M", "G", "GG"],
-    price: 189.90,
-    image: francaImg,
-    category: "selecoes"
-  },
-  {
-    id: "alemanha-24",
-    team: "Alemanha",
-    country: "Alemanha",
-    model: "Reserva",
-    season: "2024/2025",
-    sizes: ["P", "M", "G"],
-    price: 179.90,
-    image: alemanhaImg,
-    category: "selecoes"
-  },
-  {
-    id: "portugal-24",
-    team: "Portugal",
-    country: "Portugal",
-    model: "Titular",
-    season: "2024/2025",
-    sizes: ["P", "M", "G", "GG"],
-    price: 179.90,
-    image: portugalImg,
-    category: "selecoes"
-  },
-  {
-    id: "espanha-24",
-    team: "Espanha",
-    country: "Espanha",
-    model: "Titular",
-    season: "2024/2025",
-    sizes: ["M", "G"],
-    price: 179.90,
-    image: espanhaImg,
-    category: "selecoes"
-  }
+  // {
+  //   id: "argentina-24",
+  //   team: "Argentina",
+  //   country: "Argentina",
+  //   model: "Titular",
+  //   season: "2024/2025",
+  //   sizes: ["P", "M", "G", "GG"],
+  //   price: 179.90,
+  //   image: argentinaImg,
+  //   category: "selecoes"
+  // },
+  // {
+  //   id: "franca-24",
+  //   team: "França",
+  //   country: "França",
+  //   model: "Titular",
+  //   season: "2024/2025",
+  //   sizes: ["M", "G", "GG"],
+  //   price: 189.90,
+  //   image: francaImg,
+  //   category: "selecoes"
+  // },
+  // {
+  //   id: "alemanha-24",
+  //   team: "Alemanha",
+  //   country: "Alemanha",
+  //   model: "Reserva",
+  //   season: "2024/2025",
+  //   sizes: ["P", "M", "G"],
+  //   price: 179.90,
+  //   image: alemanhaImg,
+  //   category: "selecoes"
+  // },
+  // {
+  //   id: "portugal-24",
+  //   team: "Portugal",
+  //   country: "Portugal",
+  //   model: "Titular",
+  //   season: "2024/2025",
+  //   sizes: ["P", "M", "G", "GG"],
+  //   price: 179.90,
+  //   image: portugalImg,
+  //   category: "selecoes"
+  // },
+  // {
+  //   id: "espanha-24",
+  //   team: "Espanha",
+  //   country: "Espanha",
+  //   model: "Titular",
+  //   season: "2024/2025",
+  //   sizes: ["M", "G"],
+  //   price: 179.90,
+  //   image: espanhaImg,
+  //   category: "selecoes"
+  // }
 ];
 
 export const getWhatsAppLink = (teamName: string): string => {
