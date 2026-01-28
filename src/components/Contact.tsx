@@ -28,14 +28,14 @@ const Contact = () => {
               <Phone className="w-6 h-6 text-primary" />
               <div className="text-left">
                 <p className="text-sm text-muted-foreground">WhatsApp</p>
-                <p className="text-foreground font-medium">(11) 99999-9999</p>
+                <p className="text-foreground font-medium">(77) 9 9183-4403</p>
               </div>
             </div>
             <div className="flex items-center gap-4 p-4 rounded-xl bg-card">
               <Clock className="w-6 h-6 text-primary" />
               <div className="text-left">
                 <p className="text-sm text-muted-foreground">Horário</p>
-                <p className="text-foreground font-medium">9h às 20h</p>
+                <p className="text-foreground font-medium">8h às 20h</p>
               </div>
             </div>
           </div>

@@ -1,5 +1,12 @@
 // Product images imports
-import flamengoImg from '@/assets/products/flamengo.jpg';
+import flamengoJogadorImg from '@/assets/products/flamengo_jogador.jpeg';
+import flamengoPoloImg from '@/assets/products/flamengo_polo.jpeg';
+import flamengoTorcedorImg from '@/assets/products/flamengo_torcedor.jpeg';
+import brasilJogadorImg from '@/assets/products/brasil_jogador.jpeg';
+import brasilReservaImg from '@/assets/products/brasil_reserva.jpeg';
+import vascoTorcedorImg from '@/assets/products/vasco_torcedor.jpeg';
+import palmeirasTorcedorImg from '@/assets/products/palmeiras_torcedor.jpeg';
+import palmeirasReservaImg from '@/assets/products/palmeiras_reserva.jpeg';
 import corinthiansImg from '@/assets/products/corinthians.jpg';
 import palmeirasImg from '@/assets/products/palmeiras.jpg';
 import saopauloImg from '@/assets/products/saopaulo.jpg';
@@ -39,11 +46,56 @@ export const WHATSAPP_NUMBER = "5577991834403"; // Configure seu número aqui
 export const brazilianTeams: Product[] = [
   {
     id: "flamengo-24",
-    team: "Flamengo",
-    season: "2024/2025",
-    sizes: ["P", "M", "G", "GG"],
-    price: 149.90,
-    image: flamengoImg,
+    team: "Flamengo | JOGADOR",
+    season: "2026/2027",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 189.99,
+    image: flamengoJogadorImg,
+    category: "brasileiros"
+  },
+  {
+    id: "flamengo-25",
+    team: "Flamengo | POLO",
+    season: "2026/2027",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: flamengoPoloImg,
+    category: "brasileiros"
+  },
+  {
+    id: "flamengo-26",
+    team: "Flamengo | TORCEDOR",
+    season: "2026/2027",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: flamengoTorcedorImg,
+    category: "brasileiros"
+  },
+  {
+    id: "vasco-24",
+    team: "Vasco | TORCEDOR",
+    season: "2026/2027",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: vascoTorcedorImg,
+    category: "brasileiros"
+  },
+  {
+    id: "palmeiras-24",
+    team: "Palmeiras | TORCEDOR",
+    season: "2026/2027",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: palmeirasTorcedorImg,
+    category: "brasileiros"
+  },
+  {
+    id: "palmeiras-24",
+    team: "Palmeiras | Reserva",
+    season: "2026/2027",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: palmeirasReservaImg,
     category: "brasileiros"
   },
   {
@@ -179,13 +231,24 @@ export const europeanTeams: Product[] = [
 export const nationalTeams: Product[] = [
   {
     id: "brasil-24",
-    team: "Brasil",
+    team: "Brasil | JOGADOR",
     country: "Brasil",
     model: "Titular",
-    season: "2024/2025",
-    sizes: ["P", "M", "G", "GG"],
-    price: 169.90,
-    image: brasilImg,
+    season: "2026/2027",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 189.99,
+    image: brasilJogadorImg,
+    category: "selecoes"
+  },
+  {
+    id: "brasil-24",
+    team: "Brasil | Reserva",
+    country: "Brasil",
+    model: "Reserva",
+    season: "2026/2027",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: brasilReservaImg,
     category: "selecoes"
   },
   {

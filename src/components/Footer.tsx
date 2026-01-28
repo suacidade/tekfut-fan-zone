@@ -28,19 +28,20 @@ const Footer = () => {
               <MessageCircle size={20} />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/tekfut2?igsh=dmY3N244cWZ3YTAz&utm_source=qr"
+              target="_blank"
               className="p-3 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
               aria-label="Instagram"
             >
               <Instagram size={20} />
             </a>
-            <a
+            {/* <a
               href="#"
               className="p-3 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
               aria-label="Facebook"
             >
               <Facebook size={20} />
-            </a>
+            </a> */}
           </div>
         </div>
 
