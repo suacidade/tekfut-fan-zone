@@ -31,14 +31,14 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 min-h-[var(--header-height)] py-4 ${
         isScrolled
           ? 'bg-background/95 backdrop-blur-md shadow-lg'
           : 'bg-background/95'
       }`}
     >
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#inicio" className="flex items-center gap-2 group">
             <ShoppingBag className="w-8 h-8 text-tekfut transition-transform group-hover:scale-110" />
@@ -54,7 +54,7 @@ const Header = () => {
               <button
                 key={link.href}
                 onClick={() => handleNavClick(link.href)}
-                className="nav-link-tekfut"
+                className="nav-link-tekfut-white"
               >
                 {link.label}
               </button>
@@ -82,7 +82,7 @@ const Header = () => {
               <button
                 key={link.href}
                 onClick={() => handleNavClick(link.href)}
-                className="nav-link-tekfut text-left text-lg py-2"
+                className="nav-link-tekfut-white text-left text-lg py-2"
               >
                 {link.label}
               </button>

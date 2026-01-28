@@ -8,7 +8,10 @@
 
 @layer base {
   :root {
-    /* Dark sporty theme */
+     /* ==========================
+       TekFut Dark Theme (Primary)
+       ========================== */
+
     --background: 220 15% 8%;
     --foreground: 0 0% 98%;
 
@@ -18,37 +21,50 @@
     --popover: 220 15% 12%;
     --popover-foreground: 0 0% 98%;
 
-    /* Vibrant green accent - football pitch inspired */
-    --primary: 160 100% 50%;
-    --primary-foreground: 220 15% 8%;
+    /* 🔥 TEKFUT PRIMARY */
+    --primary: 270 100% 39%;           /* #7300C8 */
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 220 15% 18%;
     --secondary-foreground: 0 0% 98%;
 
     --muted: 220 15% 20%;
-    --muted-foreground: 220 10% 60%;
+    --muted-foreground: 0 0% 100%;
 
-    --accent: 160 100% 50%;
-    --accent-foreground: 220 15% 8%;
+    --accent: 270 100% 39%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 220 15% 20%;
+    --border: 270 80% 30%;
     --input: 220 15% 20%;
-    --ring: 160 100% 50%;
+    --ring: 270 100% 39%;
 
     --radius: 0.75rem;
 
-    /* Custom tokens */
+    --tekfut-primary: 270 100% 39%;
+    --tekfut-white: 0 0% 100%;
+
     --whatsapp: 142 70% 45%;
     --whatsapp-foreground: 0 0% 100%;
-    --gradient-primary: linear-gradient(135deg, hsl(160 100% 50%) 0%, hsl(180 100% 40%) 100%);
-    --gradient-hero: linear-gradient(180deg, hsl(220 15% 8%) 0%, hsl(220 15% 5%) 100%);
-    --shadow-glow: 0 0 30px hsl(160 100% 50% / 0.3);
+
+    --gradient-primary: linear-gradient(
+      135deg,
+      hsl(270 100% 39%) 0%,
+      hsl(285 100% 45%) 100%
+    );
+
+    --gradient-hero: linear-gradient(
+      180deg,
+      hsl(220 15% 8%) 0%,
+      hsl(220 15% 5%) 100%
+    );
+
+    --shadow-glow: 0 0 30px hsl(270 100% 39% / 0.35);
     --shadow-card: 0 10px 40px hsl(0 0% 0% / 0.4);
     --TEKFUT-PRIMARY: #7300C8;
-    --tekfut-color-white: #FFFFFF;
+    --header-height: 5rem;
   }
 
   .dark {

@@ -4,7 +4,7 @@ const features = [
   {
     icon: CheckCircle2,
     title: 'Produtos de Qualidade',
-    description: 'Materiais premium com acabamento impecável',
+    description: 'Materiais com acabamento impecável',
   },
   {
     icon: MessageCircle,

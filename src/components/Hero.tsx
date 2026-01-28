@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <section
       id="inicio"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-screen pt-[var(--header-height)] flex items-center justify-center overflow-hidden"
       style={{ background: 'var(--gradient-hero)' }}
     >
       {/* Background Pattern */}
@@ -41,14 +41,14 @@ const Hero = () => {
 
           {/* Main Title */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-display leading-tight mb-6 animate-fade-in">
-            As melhores blusas de time
+            Do clássico ao lançamento:
             <br />
-            <span className="gradient-text">você encontra na TekFut</span>
+            <span className="gradient-text">seu time está na TekFut</span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto animate-fade-in animation-delay-200">
-            Times nacionais, europeus e seleções com qualidade premium e os melhores preços
+            Times nacionais, europeus e seleções com qualidade e os melhores preços
           </p>
 
           {/* CTA Buttons */}
