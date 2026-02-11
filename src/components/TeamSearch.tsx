@@ -40,7 +40,7 @@ export default function TeamSearch({ onResultsChange }: TeamSearchProps) {
           type="text"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          placeholder="Digite o nome do seu time (Flamengo, Vasco, Palmeiras...)"
+          placeholder="Digite o nome do seu time (Flamengo, São Paulo, Palmeiras...)"
           className="
             w-full pl-12 pr-4 py-4 rounded-xl 
             bg-card border border-border 
