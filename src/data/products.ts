@@ -21,8 +21,18 @@ import corinthiansTitularImg from '@/assets/products/corinthians_titular.jpeg';
 import santosTitularImg from '@/assets/products/santos_titular.jpeg';
 import saoPauloTitularImg from '@/assets/products/sao_paulo_titular.jpeg';
 import corinthiansReservaImg from '@/assets/products/corinthians_reserva.jpeg';
+import flamengoTreinoMarrom from '@/assets/products/flamengo_treino_marrom.jpeg';
+import flamengoRegataMarrom from '@/assets/products/flamengo_regata_marrom.jpeg';
+import flamengo3UniformeRegata from '@/assets/products/flamengo_3_uniforme_regata.jpeg';
+import flamengoEdicaoEspecial from '@/assets/products/flamengo_edicao_especial.jpeg';
+import bahiaTitular from '@/assets/products/bahia_titular.jpeg';
+import bahiaReserva from '@/assets/products/bahia_reserva.jpeg';
+import vascoTitular from '@/assets/products/vasco_titular.jpeg';
+import vascoReserva2627 from '@/assets/products/vasco_reserva_26_27.jpeg';
 
-import realmadridImg from '@/assets/products/realmadrid.jpg';
+import realmadridTitular2526 from '@/assets/products/realmadrid_titular_25_26.jpeg';
+import barcelonaTitular2526 from '@/assets/products/barcelona_titular_25_26.jpeg';
+
 import barcelonaImg from '@/assets/products/barcelona.jpg';
 import manchesterImg from '@/assets/products/manchester.jpg';
 import liverpoolImg from '@/assets/products/liverpool.jpg';
@@ -233,27 +243,99 @@ export const brazilianTeams: Product[] = [
     price: 149.99,
     image: corinthiansReservaImg,
     category: "brasileiros"
+  },
+  {
+    id: "flamengo-29",
+    team: "Flamengo | Treino Marrom",
+    season: "2026/2027",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: flamengoTreinoMarrom,
+    category: "brasileiros"
+  },
+  {
+    id: "flamengo-30",
+    team: "Flamengo | Regata Marrom",
+    season: "2026/2027",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: flamengoRegataMarrom,
+    category: "brasileiros"
+  },
+  {
+    id: "flamengo-31",
+    team: "Flamengo | 3º Uniforme Regata",
+    season: "2026/2027",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: flamengo3UniformeRegata,
+    category: "brasileiros"
+  },
+  {
+    id: "flamengo-32",
+    team: "Flamengo | Edição Especial",
+    season: "2025/2026",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: flamengoEdicaoEspecial,
+    category: "brasileiros"
+  },
+  {
+    id: "bahia-24",
+    team: "Bahia | Titular",
+    season: "2025/2026",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: bahiaTitular,
+    category: "brasileiros"
+  },
+  {
+    id: "bahia-25",
+    team: "Bahia | Reserva",
+    season: "2025/2026",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: bahiaReserva,
+    category: "brasileiros"
+  },
+  {
+    id: "vasco-26",
+    team: "Vasco | Titular",
+    season: "2026/2027",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 189.99,
+    image: vascoTitular,
+    category: "brasileiros"
+  },
+  {
+    id: "vasco-27",
+    team: "Vasco | Reserva",
+    season: "2026/2027",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 189.99,
+    image: vascoReserva2627,
+    category: "brasileiros"
   }
 ];
 
 export const europeanTeams: Product[] = [
   {
     id: "realmadrid-24",
-    team: "Real Madrid",
-    season: "2024/2025",
-    sizes: ["P", "M", "G", "GG"],
-    price: 189.90,
-    image: realmadridImg,
+    team: "Real Madrid | Titular | Torcedor",
+    season: "2025/2026",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: realmadridTitular2526,
     category: "europeus",
     subcategory: "Espanhóis"
   },
   {
     id: "barcelona-24",
-    team: "Barcelona",
-    season: "2024/2025",
-    sizes: ["P", "M", "G", "GG"],
-    price: 189.90,
-    image: barcelonaImg,
+    team: "Barcelona | Titular | Torcedor",
+    season: "2025/2026",
+    sizes: ["P", "M", "G", "GG", "XG"],
+    price: 149.99,
+    image: barcelonaTitular2526,
     category: "europeus",
     subcategory: "Espanhóis"
   },
