@@ -35,7 +35,7 @@ const Hero = () => {
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-pulse" />
       <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-primary/10 rounded-full blur-3xl animate-pulse delay-1000" />
 
-      <div className="container top-4 mx-auto px-4 relative z-10">
+      <div className="container top-0 mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Badge */}
           {/* <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2 mb-8 animate-fade-in">
@@ -46,7 +46,7 @@ const Hero = () => {
           </div> */}
 
           {/* Main Title */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-display leading-tight mb-6 animate-fade-in">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-display leading-tight mb-4 animate-fade-in">
             Do clássico ao lançamento:
             <br />
             <span className="gradient-text">seu time está na TekFut</span>
