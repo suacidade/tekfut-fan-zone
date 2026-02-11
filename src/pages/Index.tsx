@@ -24,6 +24,7 @@ const Index = () => {
         title="Times Brasileiros"
         subtitle="As camisas dos maiores clubes do futebol brasileiro"
         products={brazilianTeams}
+        showSearch={true}
       />
 
       <ProductSection
